@@ -35,7 +35,7 @@ namespace AddParentheses
                     }
                     else
                     {
-                        stateParsedTxt += line.Replace("(", "{lat: ").Replace("-", "lng: -").Replace(")", "}");
+                        stateParsedTxt += line.Replace("(", "{lat: ").Replace(", ", ", lng: ").Replace(")", "}");
                     }
 
                     /*
